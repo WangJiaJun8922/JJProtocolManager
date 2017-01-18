@@ -15,6 +15,7 @@
 		9E3497481E2FC80600E43601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3497461E2FC80600E43601 /* LaunchScreen.storyboard */; };
 		9E3497531E2FC80700E43601 /* JJProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3497521E2FC80700E43601 /* JJProtocolManagerTests.m */; };
 		9E34975E1E2FC80700E43601 /* JJProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34975D1E2FC80700E43601 /* JJProtocolManagerUITests.m */; };
+		9E34976E1E2FC8B600E43601 /* JJProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34976D1E2FC8B600E43601 /* JJProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9E3497591E2FC80700E43601 /* JJProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E34975D1E2FC80700E43601 /* JJProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJProtocolManagerUITests.m; sourceTree = "<group>"; };
 		9E34975F1E2FC80700E43601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E34976C1E2FC8B600E43601 /* JJProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJProtocolManager.h; sourceTree = "<group>"; };
+		9E34976D1E2FC8B600E43601 /* JJProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		9E3497371E2FC80600E43601 /* JJProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				9E34976B1E2FC89B00E43601 /* JJProtocolManager */,
 				9E34973B1E2FC80600E43601 /* AppDelegate.h */,
 				9E34973C1E2FC80600E43601 /* AppDelegate.m */,
 				9E34973E1E2FC80600E43601 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				9E34975F1E2FC80700E43601 /* Info.plist */,
 			);
 			path = JJProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		9E34976B1E2FC89B00E43601 /* JJProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				9E34976C1E2FC8B600E43601 /* JJProtocolManager.h */,
+				9E34976D1E2FC8B600E43601 /* JJProtocolManager.m */,
+			);
+			path = JJProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				9E3497401E2FC80600E43601 /* ViewController.m in Sources */,
 				9E34973D1E2FC80600E43601 /* AppDelegate.m in Sources */,
 				9E34973A1E2FC80600E43601 /* main.m in Sources */,
+				9E34976E1E2FC8B600E43601 /* JJProtocolManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
